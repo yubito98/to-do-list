@@ -18,7 +18,7 @@ const TodoSearch = () =>{
             onChange={searchChange}
             className="todo-search" 
             value={search}
-            placeholder="Ingresa tu busqueda" />
+            placeholder="Search Task" />
 
         </>
        

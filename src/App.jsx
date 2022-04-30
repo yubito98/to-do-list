@@ -31,7 +31,7 @@ function App() {
       <TodoList>
       {error && <p>There is an error</p>}
       {loading && <p  style={{marginBottom:"10px"}}>Loading ...</p>}
-      {(!loading && !searchTodos.length) && <p style={{marginBottom:"10px"}} >Haz click en el boton para crear tu primera tarea.</p>} 
+      {(!loading && !searchTodos.length) && <p style={{marginBottom:"10px"}} >Click the button to add new tasks</p>} 
       {searchTodos.map(todo =>(
         <TodoItem 
         key={todo.text} 

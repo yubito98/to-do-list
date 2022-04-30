@@ -29,16 +29,16 @@ const TodoForm = () =>{
 
     return(
         <form onSubmit={onSubmit} >
-            <label>Ingresa tu tarea</label>
+            <label>Write task</label>
             <textarea 
             value={newTodoValue}
             onChange={onChange}
-            placeholder="Ingresa tu tarea" cols="15" rows="5"></textarea>
+            placeholder="What do you need to do?" cols="15" rows="5"></textarea>
             <div className="form-buttons">
 
                 <button 
                 type="submit"
-                className="button add-btn">Añadir
+                className="button add-btn">Add Task
                 </button>
 
                 <button 
