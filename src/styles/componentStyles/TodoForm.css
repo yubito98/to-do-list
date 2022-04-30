@@ -1,0 +1,51 @@
+form{
+    width: 50%;
+    height: auto;
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+form label{
+    color: #3e3e3e;
+    padding-bottom:30px;
+}
+
+form textarea{
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid #3e3e3e;
+    padding: 10px;
+}
+
+form .button{
+    border: none;
+    outline: none;
+    padding:8px 15px;
+    color: white;
+    font-weight: bold;
+    transition:0.5s;
+    cursor:pointer;
+    margin-right: 20px;
+}
+
+form .button:hover{
+   transform: scale(1.1);
+}
+
+.add-btn{
+    background-color: var(--primary-color);
+}
+
+.cancel-btn{
+    background-color: var(--secondary-color);
+}
+
+@media(max-width:900px){
+    form{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
